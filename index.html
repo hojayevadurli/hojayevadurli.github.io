@@ -1,144 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<!--Icon library-->
-<link rel="stylesheet" 
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Resume</title>
-<style>
-* {
-  box-sizing: border-box;
-}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!--Icon library-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="resume.css">
+  <link rel="stylesheet" href="resume.js">
+  
+  <title>Resume</title>
 
-.column {
-  float: left;
-  width: 30%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-/* Clear floats after the columns */
-.row:after {
-  display: table;  
-}
-div.about{
-  color:rgb(91, 32, 146);
-  position:relative;
-  top: -350px;
-}
-
-div.Name h2{
-  color:blueviolet;
-  font-size: larger;
-}
-div.column{
-  position: relative;
-  top:-80px;
-  left: -28px;
-}
-div.column i{
-  color:blueviolet;
-} 
-* {
-  box-sizing: border-box;
-}
-.Column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px;
-}
-/* Clear floats after the columns */
-.Row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-div.Column{
-  position: relative;
-  top: -280px;;
-}
-
-div.Column hr{
-color: blueviolet;
-width:60%;
-border: solid;
-}
-
-.Column  dt{
-  color:rgb(192, 31, 144);
-  font-size: small;
-  position: relative;
-  }
-.Column  dl{  
-  font-size:x-small;
-  position: relative;
-  top:-15px;
-}
- </style>
 </head>
 
 
 <body>
-    <div class="Name" >
-        <h1>Durli Hojayeva</h1>
-        <h2>Snow College Engineering Student</h2>
-        <div class="about">
-          <strong>Snow College Junior Year Software Engineering Student</strong>
-        </div>
-      </div>    
-
-        <div class="about">
-          <strong>Snow College Junior Year Software Engineering Student</strong>
-      </div>
-<div class ="row">  
-   <div class="column">
-     <pre>
-  <i class ="fa fa-fw fa-home"></i>Address:150 E College Ave, Ephraim,Utah,84627         
-  <i class="fa fa-fw fa-phone-square"></i> Phone number:435-314-7575
-    </pre></div>
-   <div class="column">
-     <pre>
-      <i class="fa fa-fw fa-envelope"></i> Email:hojayevadurli@gmail.com   
-      <i class="fa fa-fw fa-linkedin"></i> Durli Hojayeva   
-   </pre></div>
-   </div>
-   <div class ="Row">  
-    <div class="Column">
-      <h2>Work Experience</h2>
-      <hr></hr>         
-        <strong>Physics Grader</strong>   
-        <div class="work">     
-        <dl><dt>Snow College</dt>
-        2020-2021 Academic Year</dl> 
-        </div>
-       
-         <ul ><li>Grading student's homework for physics 1060</li>
-         <li>Grading student's homework for physics 1080</li> </ul>                                                        
-                                               
-         <strong>Math Grader</strong>
-         <ul><li>Grading student's homework for physics 1060</li>
-         <li>Grading student's homework for physics 1080</li> </ul> 
-         <strong>Math tutor</strong>
-         <ul>  <li>Grading student's homework for physics 1060</li>
-         <li>Grading student's homework for physics 1080</li> </ul>         
-          </div>  
-       </p>
-       <div>
-    </div>
-    <div class="Column">
-      <h2>Life Philosophy</h2>
-      <hr></hr>
-          <p>"I want to make things
-          easier instead harder"</p>
-           </div>
+  <div class="Name">
+    <h1>Durli Hojayeva</h1>
+    <h2>Snow College Engineering Student</h2>
+    <div class="about">
+      <strong>Snow College Junior Year Software Engineering Student</strong>
     </div>
   </div>
- 
+
+  <div class="about">
+    <strong>Snow College Junior Year Software Engineering Student</strong>
+  </div>
+  <div class="row">
+    <div class="column">
+      <pre>
+  <i class ="fa fa-fw fa-home"></i>Address:150 E College Ave, Ephraim,Utah,84627         
+  <i class="fa fa-fw fa-phone-square"></i> Phone number:435-314-7575
+    </pre>
+    </div>
+    <div class="column">
+      <pre>
+      <i class="fa fa-fw fa-envelope"></i> Email:hojayevadurli@gmail.com   
+      <i class="fa fa-fw fa-linkedin"></i> Durli Hojayeva   
+   </pre>
+    </div>
+  </div>
+  <div class="Row">
+    <div class="Column">
+      <h2>Work Experience</h2>
+      <hr>
+      </hr>
+      <strong>Physics Grader</strong>
+      <div class="work">
+        <div class="Work">
+          <i class="fa fa-calendar"></i> 2020-2021 Academic Year
+        </div>
+        <div class="Work">
+          <i class="fa fa-map-marker"></i> Snow College
+        </div>
+      </div>
+      <br>
+      <ul>
+        <li>Grading student's homework for physics 1060 and providing feedback</li>
+        <li>Grading student's homework for physics 1080 and providing feedback</li>
+      </ul>
+
+      <section>
+        <strong>Math Grader</strong>
+        <div class="work">
+          <div class="Work">
+            <i class="fa fa-calendar"></i> 2020-2021 Academic Year
+          </div>
+          <div class="Work">
+            <i class="fa fa-map-marker"></i> Snow College
+          </div>
+        </div>
+        <ul>
+          <li>Grading student's homework for Calculus I and providing feedback</li>
+          <li>Grading student's homework for Precalculus and providing feedback</li>
+        </ul>
+      </section>
+      <section id="Tutor">
+        <strong>Math tutor</strong>
+        <div class="work">
+          <div class="Work">
+            <i class="fa fa-calendar"></i> 2020-2021 Academic Year
+          </div>
+          <div class="Work">
+            <i class="fa fa-map-marker"></i> Snow College
+          </div></br>
+        </div>
+        <ul>
+          <li>Helping students in their math homeworks and answering all the questions that their struggle </li>
+          <li>Tutoring student's for chemistry classes</li>
+        </ul>
+        <section id="Cashier"><strong>Cashier and Customer Service Agent</strong>
+          <div class="work">
+            <div class="Work">
+              <i class="fa fa-calendar"></i> 2015-2016 Calendar Year
+            </div>
+            <div class="Work">
+              <i class="fa fa-map-marker"></i>Merw Store Turkmenistan
+            </div></br>
+          </div>
+          <ul>
+            <li>Welcoming guests and registering them. </li>
+            <li>Supervising hotel workers and giving daily reports to the manager.</li>
+          </ul>
+        </section>
+        <section id="Hotel"><strong>Hotel Receptionist</strong>
+          <div class="work">
+            <div class="Work">
+              <i class="fa fa-calendar"></i> 2014-2015 Calendar Year
+            </div>
+            <div class="Work">
+              <i class="fa fa-map-marker"></i> Yrsgal Hotel, Turkmenistan
+            </div></br>
+          </div>
+          <ul>
+            <li>Welcoming guests and registering them. </li>
+            <li>Supervising hotel workers and giving daily reports to the manager.</li>
+          </ul>
+        </section>
+        <section id="Leader">
+          <h2>Leadership Skills</h2>
+          <hr>
+          </hr>
+        </section>
+        <section id="RA"><strong>Resident Assistant</strong>
+          <div class="work">
+            <div class="Work">
+              <i class="fa fa-calendar"></i> 2019-2021 Academic Year
+            </div>
+            <div class="Work">
+              <i class="fa fa-map-marker"></i> Snow College
+            </div></br>
+          </div>
+          <ul>
+            <li>Meditating roommate conflicts. </li>
+            <li>Helping residents in emergency situations in assigned bulding.</li>
+            <li>Helping with lockouts and making bulletin-boards.</li>
+          </ul>
+        </section>
+        <section id="Pa"><strong>English-Palooza Leader </strong>
+          <div class="work">
+            <div class="Work">
+              <i class="fa fa-calendar"></i> 2018 July
+            </div>
+            <div class="Work">
+              <i class="fa fa-map-marker"></i> MAC, Turkmenistan
+            </div></br>
+          </div>
+          <ul>
+            <li>Creating and Leading different activity games for 8-16 years old kids. </li>
+            <li>Tutoring and Encouraging 8-16 years old kids to speak English.</li>
+          </ul>
+        </section>
+    </div>
+    </p>
+
+    <div class="Column">
+      <h2>Life Philosophy </h2>
+      <hr>
+      </hr>
+      <p><strong>"I want to make things
+          easier instead of harder".</p></strong>
+      <section id="Education">
+        <h2>Education</h2>
+        <hr>
+        </hr>
+      </section>
+      <section id="School"><strong>Snow College </strong>
+        <div class="work">
+          <div class="Work">
+            <i class="fa fa-calendar"></i> Present
+          </div>
+          <div class="Work">
+            <i class="fa fa-map-marker"></i> Utah State, United States
+          </div>
+        </div>
+        <ul>
+          <li>Earned 90 credits with GPA 3.66</li>
+        </ul>
+        <section id="School"><strong>Nebit-Gaz Vocational School </strong>
+          <div class="work">
+            <div class="Work">
+              <i class="fa fa-calendar"></i> 2011-2012
+            </div>
+            <div class="Work">
+              <i class="fa fa-map-marker"></i> Mary, Turkmenistan
+            </div>
+          </div>
+          <ul>
+            <li>Graduated with GPA 3.8</li>
+          </ul>
+
+        </section>
+
+      </section>
+      <section id="School"><strong>N#13 City Secondary School </strong>
+        <div class="work">
+          <div class="Work">
+            <i class="fa fa-calendar"></i> 2011 May
+          </div>
+          <div class="Work">
+            <i class="fa fa-map-marker"></i> Mary City, Turkmenistan
+          </div>
+        </div>
+      </section>
+
+      <div class="Skills">
+        <h2>Skills.... </h2>
+        <hr>
+        </hr>
+      </div>
+      <section id="Range">
+        <div class="slidecontainer">
+          <p>Organization & Dependability</p>
+          <input type="range" min="1" max="100" value="80" class="slider" id="myRange">
+        </div>
+        <div class="slidecontainer">
+          <p>Problem Solving</p>
+          <input type="range" min="1" max="100" value="80" class="slider" id="myRange">
+        </div>
+        <div class="slidecontainer">
+          <p>Communication</p>
+          <input type="range" min="1" max="100" value="80" class="slider" id="myRange">
+        </div>
+
+        <div class="slidecontainer">
+          <p>Mentoring & Team Management</p>
+          <input type="range" min="1" max="100" value="80" class="slider" id="myRange">
+        </div>
+      </section>
+      <div class="Languages">
+        <h2>Languages</h2>
+        <hr>
+        </hr>
+      </div>
+      <section id="languages">
+        </p>
+        <p>Turkmen</p>
         
+        <span class="filled dot"></span>
+        <span class="filled dot"></span>
+        <span class="filled dot"></span>
+        <span class="filled dot"></span>
+        <span class="filled dot"></span>
+        <p>English</p>
+        <span class="filled dot" ></span>
+        <span class="filled dot" ></span>
+        <span class="filled dot" ></span>
+        <span class="filled dot" ></span>
+        <span class="dot"></span>
+        <p>Russian</p>
+        <span class="filled dot" ></span>
+        <span class="filled dot" ></span>
+        <span class="filled dot" ></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <p>Turkish</p>
+        <span class="filled dot" ></span>
+        <span class="filled dot" ></span>
+        <span class="filled dot" ></span>
+        <span class="dot"></span>
+        <span class="dot"></span><br>
+        
+      </section>
+
+    </div>
 </body>
+
 </html>

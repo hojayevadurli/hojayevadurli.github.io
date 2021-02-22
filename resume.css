@@ -1,0 +1,204 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    display: table;  
+  }
+  div.about{
+    color:rgb(91, 32, 146);
+    position:relative;
+    top: -350px;
+  }
+  
+  div.Name h2{
+    color:blueviolet;
+    font-size: larger;
+  }
+  div.column{
+    position: relative;
+    top:-80px;
+    left: -28px;
+  }
+  div.column i{
+    color:blueviolet;
+  } 
+  .Column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+  /* Clear floats after the columns */
+  .Row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  div.Column{
+    position: relative;
+    top: -330px;;
+  }
+  
+  div.Column hr{
+  color: blueviolet;
+  width:90%;
+  border: solid;
+  position:relative;
+  top: -20px;
+  }
+  
+  .Column  dt{
+    color:rgb(192, 31, 144);
+    font-size: small;
+    position: relative;
+    }
+  .Column  dl{  
+    font-size:x-small;
+    position: relative;
+    top:-15px;
+  }
+  .Work{
+    float: left;
+    width: 45%;
+  }
+  .work:after{
+    display: table;
+    clear:both;
+  }
+  
+  div.work {
+  font-size:x-small;
+  position: relative;
+  top:-30px;
+  color:rgb(17, 165, 42)
+  }
+  div.work i{
+    color: rgb(165, 116, 24);
+  }
+  
+  ul li{
+    font-size:small;
+    position: relative;
+    left: -27px;
+    top:-50px;
+  }
+  strong{
+    position: relative;
+    top:-30px;
+  }
+  section strong{
+    position: relative;
+    top:-60px;
+  }
+  section .work{
+    position:relative;
+    top:-60px;
+  }
+  section ul li {
+    position:relative;
+    top:-60px;
+  }
+  #Tutor{
+    position:relative;
+    top:-15px;
+  }
+  #Tutor ul{
+    position:relative;
+    top:-15px;
+  }
+  #Cashier{
+    position: relative;
+    top:-27px;
+  }
+  #Hotel{
+    position: relative;
+    top:-55px;
+  }
+  #Leader{
+    position: relative;
+    top:-140px;
+  }
+  #RA{
+    position: relative;
+    top:-115px;
+  }
+  #Pa{
+    position: relative;
+    top:-135px;
+  }
+  #Education{
+    position: relative;
+    top:-25px;
+  }
+  .Skills{
+    position: relative;
+    top: -60px;
+  }
+  #Range{
+    position: relative;
+    top: -78px;   
+     font-size: small;    
+  
+  }
+  .Languages{
+    position: relative;
+    top: -110px;     
+  }
+  #languages{
+    position: relative;
+    top: -140px;
+    font-size: small;
+  }
+  #languages p{
+   margin:0px;
+  }
+  
+  .slidecontainer {
+    width: 200%;    
+    position: relative;
+    top: -15px;
+   
+  }  
+  .slider {
+    -webkit-appearance:round;
+    width: 50%;
+    height: 10px;
+    background: #580b72;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .60s;
+    transition: opacity .70s;
+    
+    
+  }
+  .slidecontainer p{
+    margin: 0%;
+  }
+  .dot{
+    border: 1px solid black;
+    height: 13px;
+    width: 13px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block; 
+    margin-left:55px;
+   
+  }
+.dot.filled{
+ background-color: #9a22c2;
+}
+
+  
+  
+  
+
